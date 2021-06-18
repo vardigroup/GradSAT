@@ -1,4 +1,24 @@
-Thank you for checking this directory, which contains the codes of GradSAT and benchmarks we used in the experiments. 
+Thank you for checking this directory, which contains the codes of GradSAT and benchmarks we used in the experiments for the paper in AAAI 2021. 
+
+About GradSAT: GradSAT is an extension of the continuous local search SAT solver FourierSAT (https://github.com/vardigroup/FourierSAT) implemented in C++, where BDDs are used for accelerating gradient computations. 
+
+To cite GradSAT, use 
+
+@ARTICLE{GradSAT,
+       author = {{Kyrillidis}, Anastasios and {Vardi}, Moshe Y. and {Zhang}, Zhiwei},
+        title = "{On Continuous Local BDD-Based Search for Hybrid SAT Solving}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Artificial Intelligence, Computer Science - Information Theory, Computer Science - Machine Learning, Computer Science - Logic in Computer Science, Mathematics - Optimization and Control},
+         year = 2020,
+        month = dec,
+          eid = {arXiv:2012.07983},
+        pages = {arXiv:2012.07983},
+archivePrefix = {arXiv},
+       eprint = {2012.07983},
+ primaryClass = {cs.AI},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv201207983K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
 
 --------------------Codes of GradSAT----------------------------------------------------------------------------------------------------------------------------------------------
 
