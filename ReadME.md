@@ -1,8 +1,8 @@
-Thank you for checking this directory, which contains the codes of GradSAT, some binary files of solvers we used for comparison and benchmarks we used in the experiments. 
+Thank you for checking this directory, which contains the codes of GradSAT and benchmarks we used in the experiments. 
 
 --------------------Codes of GradSAT----------------------------------------------------------------------------------------------------------------------------------------------
 
-To compile, in [codes/AAAI21_GradSAT], use 
+To compile, use 
 
 1. [rm -r obj]
 2. [rm GradSAT]
