@@ -60,7 +60,6 @@ then "g 2" means "x1 + x2 + x3 + x4 >=2" and "g -2" means "x1 + x2 + x3 + x4 <= 
 All benchmarks for evaluating GradSAT are provided. 
 1. MaxSAT benchmarks are same for all MaxSAT solvers. 
 2. For hybrid satisfiaction problems, CNF encodings are needed for solvers that can not handle XOR/CARD/PB constraints. We give CNF-encoded files for some instances 
-3. 
 e.g., 
        benchmarks/hybrid_random_constraints/cards_cnf_encoded
 
