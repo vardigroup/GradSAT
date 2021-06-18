@@ -20,27 +20,30 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
---------------------Codes of GradSAT----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------Codes of GradSAT------------------------------------------------
 
 To compile, use 
 
-1. [rm -r obj]
-2. [rm GradSAT]
-3. [make].
+        rm -r obj
+        rm GradSAT
+        make
 
 If the compilation fails and it is not obvious how to fix it, you can also try the binary file [GradSAT].
 
-To test GradSAT, use [./GradSAT [Options] Inputfile]. Run [./GradSAT] to check all options. 
+To test GradSAT, use 
+       ./GradSAT [Options] Inputfile. 
+Run 
+       ./GradSAT to check all options. 
 
 GradSAT accepts .cnf (SAT/MaxSAT), .wcnf (weighted MaxSAT) and .opb (Pseudo-Boolean constraints) format files.
 
 e.g.:
 
-./GradSAT benchmarks/hybrid_random_constraints/cards/n_50/n_50_lr_0.5_rpb_0.7_0.cnf.opb
+       ./GradSAT benchmarks/hybrid_random_constraints/cards/n_50/n_50_lr_0.5_rpb_0.7_0.cnf.opb
 
-./GradSAT benchmarks/hybrid_random_constraints/xor_1card/n_50/n_50_xr_0.2_cc_0.2_0.cnf
+       ./GradSAT benchmarks/hybrid_random_constraints/xor_1card/n_50/n_50_xr_0.2_cc_0.2_0.cnf
 
-./GradSAT -maxsat benchmarks/MaxSAT/random/max2sat/120v/s2v120c1500-1.cnf
+       ./GradSAT -maxsat benchmarks/MaxSAT/random/max2sat/120v/s2v120c1500-1.cnf
 
 For reproducibility, please use multi-core.
 
