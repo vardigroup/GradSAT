@@ -52,10 +52,6 @@ We use an extended DIMACS format for hybrid constraints:
 4. Global cardinality constraint: If you need a cardinality constraint that contains all variables, alternatively you can use: "g [threshold]". e.g. suppose there are 4 variables, 
 then "g 2" means "x1 + x2 + x3 + x4 >=2" and "g -2" means "x1 + x2 + x3 + x4 <= 2".
 
----------------------Other Solvers----------------------------------------------------------------------
-
-We provide some binary files of other solvers that can directly work on our machine without installation. However, if some solver does not work, please install/compile it according to the tutorial.
-
 --------------------Benchmarks-------------------------------------------------------------------------
 
 All benchmarks for evaluating GradSAT are provided. 
