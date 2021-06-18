@@ -1,0 +1,11 @@
+prefix=/home/zz59/FourierSAT+
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: NLopt
+Description: nonlinear optimization libary
+Version: 2.6.2
+Libs: -L${libdir} -lnlopt
+Libs.private: -lm
+Cflags: -I${includedir}
