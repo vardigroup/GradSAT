@@ -24,8 +24,6 @@ archivePrefix = {arXiv},
 
 To compile, use 
 
-        rm -r obj
-        rm GradSAT
         make
 
 If the compilation fails and it is not obvious how to fix it, you can also try the binary file [GradSAT].
