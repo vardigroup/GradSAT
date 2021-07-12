@@ -30,11 +30,12 @@ If the compilation fails and it is not obvious how to fix it, you can also try t
 
 To test GradSAT, use 
 
-       ./GradSAT [Options] Inputfile. 
+       ./GradSAT [Options] [Inputfile]
        
 Run 
 
-       ./GradSAT to check all options. 
+       ./GradSAT 
+to check all options. 
 
 GradSAT accepts .cnf (SAT/MaxSAT), .wcnf (weighted MaxSAT) and .opb (Pseudo-Boolean constraints) format files.
 
