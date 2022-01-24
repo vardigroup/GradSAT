@@ -84,6 +84,7 @@ BDD::BDD(BDD *bdd){
     this->sum_of_clause_weights = bdd->sum_of_clause_weights;
     this->num_of_vars = bdd->num_of_vars;
     this->clause_weights = new std::vector<double>;
+    this->generate_parents = 0; 
     for( int i = 0; i < bdd->clause_weights->size(); i++){
         this->clause_weights->push_back((*bdd->clause_weights)[i]);
     }
