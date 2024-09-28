@@ -2,22 +2,22 @@ Thank you for checking this directory, which contains the codes of GradSAT and b
 
 About GradSAT: GradSAT is an extension of the continuous local search SAT solver FourierSAT (https://github.com/vardigroup/FourierSAT) implemented in C++, where BDDs are used for accelerating gradient computations. 
 
+Paper: 
+On Continuous Local BDD-Based Search for Hybrid SAT Solving
+Anastasios Kyrillidis, Moshe Vardi, Zhiwei Zhang
+AAAI 2021
+https://arxiv.org/abs/2012.07983
+
 To cite GradSAT, use 
 
-@ARTICLE{GradSAT,
-       author = {{Kyrillidis}, Anastasios and {Vardi}, Moshe Y. and {Zhang}, Zhiwei},
-        title = "{On Continuous Local BDD-Based Search for Hybrid SAT Solving}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Artificial Intelligence, Computer Science - Information Theory, Computer Science - Machine Learning, Computer Science - Logic in Computer Science, Mathematics - Optimization and Control},
-         year = 2020,
-        month = dec,
-          eid = {arXiv:2012.07983},
-        pages = {arXiv:2012.07983},
-archivePrefix = {arXiv},
-       eprint = {2012.07983},
- primaryClass = {cs.AI},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv201207983K},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@inproceedings{kyrillidis2021continuous,
+  title={On continuous local bdd-based search for hybrid sat solving},
+  author={Kyrillidis, Anastasios and Vardi, Moshe and Zhang, Zhiwei},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={5},
+  pages={3841--3850},
+  year={2021}
 }
 
 --------------------Codes of GradSAT------------------------------------------------
