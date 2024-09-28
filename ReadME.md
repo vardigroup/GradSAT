@@ -3,9 +3,13 @@ Thank you for checking this directory, which contains the codes of GradSAT and b
 About GradSAT: GradSAT is an extension of the continuous local search SAT solver FourierSAT (https://github.com/vardigroup/FourierSAT) implemented in C++, where BDDs are used for accelerating gradient computations. 
 
 Paper: 
+
 On Continuous Local BDD-Based Search for Hybrid SAT Solving
+
 Anastasios Kyrillidis, Moshe Vardi, Zhiwei Zhang
+
 AAAI 2021
+
 https://arxiv.org/abs/2012.07983
 
 To cite GradSAT, use 
